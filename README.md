@@ -125,11 +125,11 @@ data/geo/italy_nuts2.geojson
 
 ### Dashboard / Maps / Charts
 
-![Screenshot 1](./visuals/ss1.png)  
-![Screenshot 2](./visuals/ss2.png)  
-![Screenshot 3](./visuals/ss3.png)  
-![Screenshot 4](./visuals/ss4.png)  
-![Screenshot 5](./visuals/ss5.png)  
+![Screenshot 1](./ss1.png)  
+![Screenshot 2](./ss2.png)  
+![Screenshot 3](./ss3.png)  
+![Screenshot 4](./ss4.png)  
+![Screenshot 5](./ss5.png)  
 
 ------------------------------------------------------------------------
 
