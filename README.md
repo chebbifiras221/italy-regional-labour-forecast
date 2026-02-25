@@ -15,10 +15,28 @@ Interactive Streamlit dashboard (visual analytics + forecasts)
 
 ## 🗂 Project Structure
 
-. ├─ app/ │ └─ dashboard.py ├─ src/ │ ├─ build_dataset.py │ ├─
-eurostat_api.py │ ├─ features.py │ ├─ train_models.py │ ├─ clustering.py
-│ └─ utils.py ├─ data/ │ ├─ raw/ │ ├─ processed/ │ └─ geo/ ├─ models/ ├─
-requirements.txt └─ run_pipeline.py
+italy-regional-labour-forecast/
+│
+├── app/ # Streamlit dashboard
+│ └── dashboard.py
+│
+├── src/ # Core data & ML pipeline
+│ ├── build_dataset.py
+│ ├── eurostat_api.py
+│ ├── features.py
+│ ├── train_models.py
+│ ├── clustering.py
+│ └── utils.py
+│
+├── data/ # Data storage
+│ ├── raw/
+│ ├── processed/
+│ └── geo/
+│
+├── models/ # Saved trained models
+│
+├── requirements.txt # Dependencies
+└── run_pipeline.py # Main pipeline runner
 
 ------------------------------------------------------------------------
 
@@ -101,6 +119,17 @@ data/geo/italy_nuts2.geojson
 -   Time-based forecasting
 -   Supervised ML
 -   Interactive dashboarding
+
+------------------------------------------------------------------------
+## 📸 Screenshots
+
+### Dashboard / Maps / Charts
+
+![Screenshot 1](./visuals/ss1.png)  
+![Screenshot 2](./visuals/ss2.png)  
+![Screenshot 3](./visuals/ss3.png)  
+![Screenshot 4](./visuals/ss4.png)  
+![Screenshot 5](./visuals/ss5.png)  
 
 ------------------------------------------------------------------------
 
